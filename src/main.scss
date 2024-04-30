@@ -1,0 +1,20 @@
+@import './styling/base';
+@import './styling/typgraphy';
+@import './styling/variables';
+
+@import './components/nameInput/nameInput';
+@import './components/spaceCard/spaceCard';
+@import './components/header/header';
+@import './components/toggle/toggle';
+@import './components/loading/loading';
+
+.main-container {
+    background-color: var(--background-color);
+    transition: background-color .3s ease; 
+    position: absolute;
+
+    .main-wrapper{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
